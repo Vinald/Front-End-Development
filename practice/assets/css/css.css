@@ -7,11 +7,20 @@ body{
 }
 
 .button1{
-    cursor:pointer; 
     color:white; 
     background:red; 
     border:0; 
     padding:10px;
+    font-weight: bold;
+
+}
+.button1:hover
+{
+    background: none;
+    border: 2px solid red;
+    cursor:pointer; 
+    color: red;
+    font-weight: bold;
 }
 
 .button2{
@@ -21,12 +30,86 @@ body{
     border: 2px solid blue; 
     padding:10px 20px;
 }
+.button2:hover{
+    background: blue;
+    color: white;
+}
 
 .button3{
     cursor:pointer; 
     color:white; 
     background:blue; 
     border-radius:20px; 
-    padding:10px 20px
+    padding:10px 20px;
     border: none;
+    transition: opacity 0.5s;
+}
+.button3:hover{
+    opacity: 0.7;
+}
+
+.button:active{
+    opacity: 0.5;
+}
+
+.button4{
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.button4:hover{
+    cursor: pointer;
+}
+
+.button4:active
+{
+    background: green;
+}
+
+.button5{
+    background: rgb(184, 184, 6);
+    color: #000000;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+
+
+.button6{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background: green;
+    border: 0;
+}
+
+.button7{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: purple;
+}
+
+.button8{
+    color: gray;
+    background: none;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.button9{
+    color: blue;
+    background: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid blue;
 }
