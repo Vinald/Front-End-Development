@@ -1,11 +1,18 @@
 body{
     background: rgb(238, 233, 233);
+    
 }
 
 .container{
-    margin: 32px; 
+    margin: 32px;
+    align-items: center;
+    
+    
 }
 
+button{
+    margin: 10px;
+}
 .button1{
     color:white; 
     background:red; 
@@ -85,6 +92,12 @@ body{
     color: white;
     background: green;
     border: 0;
+    margin-right: 20px;
+    box-shadow: 9px 10px 10px black;
+}
+
+.button6:hover{
+    cursor: pointer;
 }
 
 .button7{
@@ -93,6 +106,7 @@ body{
     border: none;
     color: white;
     background: purple;
+    box-shadow: 9px 10px 10px red;
 }
 
 .button8{
@@ -102,6 +116,10 @@ body{
     padding: 10px 20px;
     border-radius: 3px;
     font-weight: bold;
+    transition: box-shadow 1s;
+}
+.button8:hover{
+    box-shadow: 9px 10px 10px rgba(0,0,0,0.7);
 }
 
 .button9{
