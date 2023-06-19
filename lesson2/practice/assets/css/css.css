@@ -1,3 +1,32 @@
-p{
-    background: blue;
+body{
+    background: rgb(238, 233, 233);
+}
+
+.container{
+    margin: 32px; 
+}
+
+.button1{
+    cursor:pointer; 
+    color:white; 
+    background:red; 
+    border:0; 
+    padding:10px;
+}
+
+.button2{
+    cursor:pointer; 
+    color:blue; 
+    background:white; 
+    border: 2px solid blue; 
+    padding:10px 20px;
+}
+
+.button3{
+    cursor:pointer; 
+    color:white; 
+    background:blue; 
+    border-radius:20px; 
+    padding:10px 20px
+    border: 0;
 }
