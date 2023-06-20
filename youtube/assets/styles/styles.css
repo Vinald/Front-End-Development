@@ -1,15 +1,38 @@
+
 .container{
     background: rgb(237, 231, 231);
     margin: 0 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.search-bar{
-    display: block;
-    margin: 10px 0;
-    padding: 5px 50px 5px 5px;
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+   
 }
+
+.left-section{
+    background-color: aqua;
+    width: 150px;
+    padding: 10px;
+}
+
+.center-section{
+    background-color: red;
+    flex: 1;
+    margin: 0 70px;
+    max-width: 300px;
+}
+
+.right-section{
+    background: black;
+    color: white;
+    width: 200px;
+    padding: 10px;
+ 
+}
+
 
 
 

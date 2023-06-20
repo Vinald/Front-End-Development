@@ -240,6 +240,7 @@ button{
     border: 1px solid gray;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .flex1{
@@ -257,4 +258,34 @@ button{
     background: blue;
     width: 100px;
     color: white;
+}
+
+.flex01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid gray;
+    align-items: end;
+}
+
+.flex5{
+    background: aqua;
+    width: 100px;
+    padding: 10px;
+}
+
+.flex4{
+    background: black;
+    width: 100px;
+    color: white;
+    padding: 10px;
+
+}
+
+.flex6{
+    background: blue;
+    width: 100px;
+    color: white;
+    padding: 10px;
+
 }
