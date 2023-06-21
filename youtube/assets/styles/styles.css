@@ -9,29 +9,59 @@
     height: 55px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
    
+}
+
+.header li{
+    list-style: none;
 }
 
 .left-section{
     background-color: aqua;
     width: 150px;
+    color: red;
     
 }
+.left-section ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 5px;
+    margin-right: 20px;
+}
+
 
 .center-section{
     background-color: red;
     flex: 1;
+    /* margin: 0 30px 0 70px; */
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
+}
+
+.search-bar{
+    padding: 10px 70px 10px 10px;
 }
 
 .right-section{
     background: black;
     color: white;
-    width: 200px;
+    width: 500px;
  
 }
 
-
+.right-section ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 5px;
+    margin-right: 20px;
+}
 
 
 .thumbnail{
