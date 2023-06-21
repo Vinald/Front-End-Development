@@ -1,15 +1,66 @@
 body{
     background: rgb(238, 233, 233);
-    
+    padding-top: 70px;  
+    padding-left: 100px;  
 }
 
 .container{
+
     margin: 32px;
     align-items: center;
     padding-bottom: 1000px;
     font-family: Arial, Helvetica, sans-serif;
     
     
+}
+
+.sidebar{
+    position: fixed; /* fixes and element on the window*/    
+    color: white;
+    background-color: green;
+    bottom: 0;
+    left: 0;
+    top: 70px;
+    width: 100px;
+
+
+}
+
+.absolute{
+    position: absolute;  /* fixes and element on the page*/ 
+    background-color: red;
+    color: white;
+    top: 0px;
+    right: 10px;
+    right: 0;
+
+}
+.header1{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 0px;
+    right: 0;
+    height: 50px;
+    z-index: 999;
+
+}
+
+.pos1{
+    background: lightblue;
+    /* padding: 200px; */
+    width: 200px;
+    height: 200px;
+    position: static;
+}
+
+.pos2{
+    background: lightpink;
+    /* padding: 200px; */
+    width: 200px;
+    height: 200px;
+    position: relative;
 }
 
 button{
