@@ -15,21 +15,19 @@
 .left-section{
     background-color: aqua;
     width: 150px;
-    padding: 10px;
+    
 }
 
 .center-section{
     background-color: red;
     flex: 1;
-    margin: 0 70px;
-    max-width: 300px;
+    
 }
 
 .right-section{
     background: black;
     color: white;
     width: 200px;
-    padding: 10px;
  
 }
 
