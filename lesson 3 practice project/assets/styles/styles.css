@@ -68,10 +68,7 @@ body{
     color: black;
     width: 400px;
     flex-shrink: 0;
-    font-weight: bolder;
-
-
- 
+    font-weight: bolder; 
 }
 
 .right-section ul{
