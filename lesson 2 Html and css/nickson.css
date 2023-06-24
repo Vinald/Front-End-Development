@@ -1,0 +1,39 @@
+h1
+{
+    margin: 0px;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    background-color: gray;
+
+}
+.nav-bar{
+    color: green;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+}
+.school-name{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.campus-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.right ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right ul li
+{
+    color: green;
+}
