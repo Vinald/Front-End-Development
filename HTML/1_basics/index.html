@@ -10,7 +10,7 @@
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <title>Practice</title>    
+    <title>HTML</title>    
 </head>
 <body>
     
@@ -25,7 +25,9 @@
 
          </div>
 
-                 <!-- headings -->
+        <!-- headings -->
+        <hr>
+        <h3>Headings</h3>
         <h1>heading 1</h1>
         <h2>heading 2</h2>
         <h3>heading 3</h3>
@@ -35,22 +37,34 @@
 
         <!-- Paragraphs -->
         <hr>
+        <h3>Paragraph tag</h3>
         <p>Lorem ipsum dolor sit am</p>
-
-        <!-- Links -->
-        <a href="https://www.google.com">Google</a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Ut fuga natus officiis, fugit enim deleniti assumenda sapiente odit sunt debitis!
+        </p>
         <hr>
 
         <!-- Images -->
+        <h3>Images</h3>
         <img src="https://picsum.photos/200/300" alt="random image">
+        <br>
+        <img src="assets/images/sam.jpg" alt="person">
         <hr>
+
+        <!-- video -->
+        <h3>Video</h3>
+        <video src="assets/videos/121.mp4" controls muted width="560px">Video 1</video>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/J1oEWiUsKgU?si=TGBxK_VMdJSgAOUZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <hr>
+
         <!-- Lists -->
+        <h3>Lists</h3>
         <ul>
             <li>item 1</li>
             <li>item 2</li>
             <li>item 3</li>
         </ul>
-        <hr>
         <ol>
             <li>item 1</li>
             <li>item 2</li>
@@ -58,35 +72,19 @@
         </ol>
         <hr>
 
-         <!-- position -->
-         <hr>
-         <h1>css position</h1>
-         <div class="positon">
-            <div class="header1">header</div>
-            <div class="pos1">Div1</div>
-            <div class="pos2">
-                Div2
-                 <!-- absolute fixes and element on  the page-->
-                <div class="absolute">
-                    X
-                </div>
-            </div>
-            <!-- <div class="pos3">Div3</div> -->
-         </div>
-
-         <!-- end of the position -->
+         <!-- Links -->
+         <h3>Links</h3>
+         <a href="https://www.google.com">Google</a>
+         <a href="#" target="_blank">link</a>
 
         <hr>
          <!-- button -->
+        <h3>Buttons</h3>
         <button>Hello</button>
         <button>Click</button>
+        <button>Submit</button>
+        <button>Send</button>
 
-        <hr>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ut fuga natus officiis, fugit enim deleniti assumenda sapiente odit sunt debitis!
-        </p>
-        <hr>
-        <a href="#" target="_blank">link</a>
         <hr>
         <button class="button1">Subscribe</button>
         <button class="button2">join</button>
@@ -97,9 +95,36 @@
         <button class="button7">Get started</button>
         <button class="button8">Download</button>
         <button class="button9">Save</button>
-
         <!-- end of buttons -->
 
+        <hr>
+        <!-- tables -->
+        <h3>Tables</h3>
+        <table>
+            <tr>
+                <th>col1</th>
+                <th>col2</th>
+                <th>col3</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>row1</td>
+                    <td>row1</td>
+                    <td>row1</td>
+                </tr>
+                <tr>
+                    <td>row2</td>
+                    <td>row2</td>
+                    <td>row2</td>
+                </tr>
+                <tr>
+                    <td>row3</td>
+                    <td>row3</td>
+                    <td>row3</td>
+                </tr>
+
+            </tbody>
+        </table>
 
         <hr>
         <!-- dealing with text -->
@@ -121,12 +146,44 @@
         <p class="text-apple">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span> Quis, omnis</span></p>
         
         <hr>
-        <input type="text" name="" id="" placeholder="Search" class="search">
+        <h3>Input tag</h3>
+        <form action="#">
+            <label for="search">Search</label>
+            <input type="text" name="" id="search" placeholder="Search" class="search">
+            <br>
+            <label for="pass">password</label>
+            <input type="password" placeholder="password" id="pass">
+            <br>
+            <label for="radio">radio</label>
+            <input type="radio" name="radio" id="radio">
+            <br>
+            <label for="checkbox">checkbox</label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <br>
+            <label for="email">email</label>
+            <input type="email" name="email" id="Email" placeholder="email">
+            <br>
+            <label for="number"></label>
+            <input type="number" id="number">
+            <br>
+            <label for="date"></label>
+            <input type="date" id="date">
+            <br>
+            <label for="time"></label>
+            <input type="time" id="time">
+            <br>
+            <input type="color">
+            <br>
+            <input type="range">
+            <br>
+            <input type="file">
+            <br>
+            <input type="submit" value="submit">
+        </form>
         <hr>
 
         <div class="post">
-            <input type="text" name="search" id="" class="search-bar">
-            <img src="assets/20.jpg" alt="video thumbnail">
+            <img src="assets/images/20.jpg" alt="video thumbnail">
             
             <p class="post-title">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, facere!
@@ -213,6 +270,24 @@
             </div>
         </div>
 
+        <!-- position -->
+        <hr>
+        <h1>css position</h1>
+        <div class="positon">
+        <div class="header1">header</div>
+        <div class="pos1">Div1</div>
+        <div class="pos2">
+            Div2
+                <!-- absolute fixes and element on  the page-->
+            <div class="absolute">
+                X
+            </div>
+        </div>
+        <!-- <div class="pos3">Div3</div> -->
+        </div>
+        <!-- end of the position -->
+        
+        <hr>
        
     </div>
     
