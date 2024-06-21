@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+body {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+nav, footer {
+    flex-shrink: 0;
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 2px;
+    padding: 5px;
+}
+
+
+
+.logo {
+    width: 80vh;
+    height: 200px;
+    background: blue;
+}
+
+footer {
+    background: gray;
+    padding: 10px;
+    width: 100%;
+}
