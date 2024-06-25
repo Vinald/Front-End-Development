@@ -5,22 +5,20 @@
 // objects are useful for storing data in a structured way, and can represent real world objects, like a cat.
 
 let cat = {
-    "name": "Whiskers",
-    "legs": 4,
-    "tails": 1,
-    "enemies": ["water", "dogs"]
+    name: "Whiskers",
+    legs: 4,
+    tails: 1,
+    enemies: ["water", "dogs"]
 };
 
-// in this example, all the properties are stored as strings, such as - "name", "legs", "tails", and "enemies".
 
 let anotherObject = {
     make: "Ford",
     5: "five",
-    "model": "focus"
+    model: "focus"
 };
 
 // access object properties with dot notation
-
 // there are two ways to access the properties of an object: dot notation (.) and bracket notation ([]), similar to an array.
 
 let myObj = {
@@ -31,7 +29,6 @@ let myObj = {
 let prop1val = myObj.prop1;
 let prop2val = myObj.prop2;
 
-// prop1val would have a value of "val1", and prop2val would have a value of "val2".
 
 myObj = {
     "Space Name": "Kirk",
@@ -86,10 +83,10 @@ let alpha = {
 };
 
 console.log(alpha[2]);
-alpha[24];
+console.log(alpha[24]);
 
 let value = 2;
-alpha[value];
+console.log(alpha[value]);
 
 const person = {
     name: "Samuel Vinald",

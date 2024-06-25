@@ -1,5 +1,4 @@
 // foreach function
-
 let numbers = [1, 2, 3, 4, 5];
 numbers.forEach(function (number) {
   console.log(number);
@@ -25,6 +24,12 @@ const sum = numbers.reduce(function (total, number) {
   return total + number;
 }, 0);
 console.log(sum);
+
+const sum1 = numbers.reduce((prev, curr) => prev + curr);
+console.log(sum1);
+
+const mult = numbers.reduce((prev, curr) => prev * curr);
+console.log(mult);
 
 // find function
 numbers = [1, 2, 3, 4, 5];

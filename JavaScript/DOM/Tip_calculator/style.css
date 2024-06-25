@@ -1,0 +1,12 @@
+body{
+  background: rgb(1, 1, 68);
+  color: white;
+  margin: 100px;
+}
+
+.container {
+  background: black;
+  border-radius: 10px;
+}
+
+

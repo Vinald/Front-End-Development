@@ -3,7 +3,7 @@
 var myArray = [];
 
 var i = 0;
-while(i < 5 ) {
+while(i < 5) {
     myArray.push(i);
     i++;
 }
@@ -134,4 +134,17 @@ console.log(lookUpProfile("Harry", "likes"))
 console.log(lookUpProfile("Bob", "number"))
 console.log(lookUpProfile("Bob", "potato"))
 console.log(lookUpProfile("Akira", "address"))
-console.log('\n')
+console.log()
+console.log('Contact have a data type of', typeof contacts)
+
+
+let evenNumber = [];
+
+for (let i = 0; i < 10; i++) {
+    if (i % 2 === 0) {
+        evenNumber.push(i);
+    }
+}
+
+console.log()
+console.log('Even numbers', evenNumber)

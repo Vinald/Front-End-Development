@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>Tip Calculator</title>
+    <!-- bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container p-5 bg-black">
+      <h1 class="mb-5 display-3">Tip Calculator</h1>
+      <!-- main calculator div -->
+      <div class="calculator">
+        <!-- form start -->
+        <div class="form-group">
+          <!-- bill -->
+          <label for="bill">Bill Amount</label>
+          <input type="number" class="form-control mb-3 py-4" id="bill" placeholder="Enter bill amount" />
+
+          <!-- Tip -->
+          <label for="tip">Tip Percentage</label>
+          <input type="number" class="form-control mb-3 py-4" id="tip" placeholder="Enter tip percentage" />
+
+          <!-- people -->
+          <label for="people">Number of People</label>
+          <input type="number" class="form-control mb-3 py-4" id="people" placeholder="Enter number of people" />
+          
+          <div class="result mt-4">
+            <h3>Tip Amount</h3>
+            <p id="tip-amount">UgX0.00</p>
+            <h3>Total Amount</h3>
+            <p id="total-amount">UgX0.00</p>
+            <h3>Amount per Person</h3>
+            <p id="person-amount">UgX0.00</p>
+
+            <button class="btn btn-danger btn-lg mt-5" id="reset">
+              Reset
+            </button>
+          </div>
+
+    </div>
+
+
+    <!-- JS link -->
+    <script src="./script.js"></script>
+    <!-- bootstrap JS link -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

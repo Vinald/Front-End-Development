@@ -36,7 +36,7 @@ function orderMyLogic(val) {
     } else {
         return "Greater than or equal to 10";
     }
-}
+}7
 
 console.log(orderMyLogic(3));
 console.log(orderMyLogic(7));

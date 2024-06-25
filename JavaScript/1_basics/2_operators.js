@@ -72,5 +72,41 @@ b /= 4;
 c /= 11;
 
 // increment
-a = a++
-console.log(a)
+a = a++;
+console.log(a);
+
+// decrement
+a = a--;
+console.log(a);
+
+// Logical operators
+// and operator
+let andOperator = 0;
+andOperator = 25;
+if (andOperator >= 25 && andOperator <= 30) {
+    console.log("Yes");
+}
+
+// or operator
+let orOperator = 0;
+orOperator = 25;
+if (orOperator < 25 || orOperator > 30) {
+    console.log("No");
+}
+
+// else statement
+let elseStatement = 0;
+elseStatement = 25;
+if (elseStatement < 25) {
+    console.log("Under 25");
+}
+else {
+    console.log("Over 25");
+}
+
+// not operator
+let notOperator = 0;
+notOperator = 25;
+if (!notOperator) {
+    console.log("Yes");
+}
