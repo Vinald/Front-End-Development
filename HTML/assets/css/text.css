@@ -1,0 +1,50 @@
+body{
+    background: rgb(238, 233, 233);
+    padding-top: 70px;  
+    padding-left: 100px;  
+}
+
+
+.video-title{
+    font-weight: bold;
+    font-size: 20px;
+    width: 300px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.video-views{
+    font-size: 14px;
+    color: gray;
+}
+
+.video-owner{
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.video-details{
+    font-size: 14px;
+    width:300px;
+    margin-top: 0;
+    line-height: 19px;
+}
+
+.text-apple{
+    cursor: pointer;
+    background: rgb(101, 2, 2);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.text-apple span:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.post img{
+    height: 300px;
+}
