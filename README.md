@@ -1,5 +1,7 @@
-# Front End Development
+## Digital and Analog clock project
 
-## HTML
+### How to use it
 
-## CSS
+- Clone the Repo
+
+- Run the index.html file
